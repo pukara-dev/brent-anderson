@@ -209,3 +209,58 @@ b, strong {
    font-weight: 900;
    font-style: italic;
 }
+
+/*Homepage - Section 2 (Book)*/
+.elementor div.slide-2 {
+	background-color: var(--primary-color);
+	padding: 0;
+	height: 97vh;
+	box-sizing: border-box;
+ }
+ .elementor .slide-2 .e-con-inner {
+	font-family: "Poppins", sans-serif !important;
+	display: flex;
+	overflow: hidden;
+	padding: 0;
+ }
+ .slide-2 .e-con-inner .slide-2-column-1 {
+	padding: 0;
+	width: 47% !important;
+	align-items: flex-end;
+ }
+ .slide-2 .e-con-inner .slide-2-column-2 {
+	padding: 0;
+	flex: 1;
+	align-items: flex-start;
+ }
+ .elementor-element div.slide-2-title {
+	font-family: "Poppins", sans-serif !important;
+	color: white;
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	padding-top: 8vh;
+ }
+ span.brent-name {
+	color: var(--orange-color);
+ }
+ .elementor-element div.slide-2-subtitle {
+	font-family: "Poppins", sans-serif !important;
+	color: white;
+	font-size: 1.3rem;
+	font-style: italic;
+	letter-spacing: .1rem;
+	padding-top: 1vh;
+ }
+ .elementor-element div.slide-2-text {
+	font-family: "Poppins", sans-serif !important;
+	color: white;
+	font-size: 1.3rem;
+	width:72%;
+	line-height: 1.9rem;
+	padding-top: 1.5vh;
+ }
+ .slide-2-image div img {
+	height:125vh;
+	width:auto;
+	max-width: 100%;
+ }
