@@ -56,3 +56,106 @@ li {
 b, strong {
 	font-weight: 700;
 }
+/*Heading top*/
+.site-header {
+	width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+	height: 89px;
+}
+.site-logo a img {
+	height: 40%;
+	width: auto;
+	margin: 2% 40%;
+}
+.header-navigation-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	z-index: 9998;
+}
+.menu-heading-menu-container {
+	display: flex;
+	 text-align: left;
+	 flex-grow: 1;
+	 justify-content: flex-start;
+}
+#menu-heading-menu {
+	 line-height: 1;
+	 list-style: none;
+	 margin: 0;
+	 padding: 0;
+	 display: flex;
+	 gap: 10px;
+}
+.menu-item {
+	display: inline-block;
+}
+.menu-item a {
+	text-decoration: none;
+	font-family: "Poppins", sans-serif !important;
+	color: white;
+	font-weight: 500;
+	font-size: 1.33rem;
+	padding: 15px 40px 15px 0;
+}
+.menu-item a:hover {
+	color: var(--orange-color);;
+}
+.menu-toggle {
+    display: none;
+    font-size: 1.6rem;
+	font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+	color: #223146;
+}
+.primary-menu li.top-menu-contact.menu-item {
+	background-color: var(--orange-color);
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-right: 20px;
+}
+.primary-menu li.top-menu-contact.menu-item a {
+	color: var(--primary-color) !important;
+	font-size: 1rem !important;
+	padding: 15px 25px 15px 25px;
+}
+
+@media (max-width: 768px) {
+	.site-logo img {
+		width: 50%;
+	}
+    .primary-menu {
+		color: var(--primary-color);
+        display: none !important;
+        flex-direction: column;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        background: rgba(247, 243, 238);
+        width: 100vw;
+        z-index: 9999;
+		gap: 0 !important;
+		border: 1vw solid rgba(247, 243, 238);
+    }
+    .primary-menu.expanded {
+        display: flex !important;
+    }
+	.menu-item a {
+		padding: 0;
+	}
+    .primary-menu li {
+		padding: 1.5vh 4vw;
+		border-bottom: .5px solid #536884;
+    }
+	.primary-menu li:nth-child(4) {
+		border-bottom: .5px solid rgba(247, 243, 238);
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
