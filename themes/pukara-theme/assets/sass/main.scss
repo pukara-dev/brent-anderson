@@ -342,6 +342,48 @@ b, strong {
     fill: var(--primary-color);
 }
 
+/*Book - Section 1 (Links)*/
+.book-section-1 {
+	height:33%;
+}
+
+/*Book - Section 2 (Links)*/
+.book-section-2 {
+	background-color: var(--primary-color);
+	height:57%;
+}
+
+/*Book - Section 3 (Links)*/
+.book-section-3 {
+	background-color: var(--white);
+	height: 10%;
+	padding:0 !important;
+	font-family: "Poppins", sans-serif !important;
+}
+.book-section-3 div.e-con-inner {
+	max-width: 100% !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+.book-section-3-column-1 {
+	padding:0 !important;
+	margin:0 !important;
+}
+.book-section-3-column-2 {
+	padding:0 !important;
+	margin:0 !important;
+}
+.book-section-3-img {
+	width: 100% !important;
+	height: auto !important;
+}
+.book-section-3-title div h2 {
+	color: var(--primary-color) !important;
+}
+.book-section-3-text {
+	color: var(--primary-color) !important;
+}
+
 /* Footer Styles */
 .site-footer {
    background-color: var(--primary-color);
@@ -424,7 +466,7 @@ b, strong {
    padding: 0;
    margin: 0;
    display: flex;
-   gap: 40px;
+   gap: 35px;
 }
 .footer-menu li {
    display: inline;
