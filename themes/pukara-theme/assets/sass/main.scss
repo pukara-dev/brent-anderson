@@ -342,6 +342,41 @@ b, strong {
     fill: var(--primary-color);
 }
 
+/*Book - Section 1 (Links)*/
+.book-section-1-img {
+	height: 100vh;
+}
+.book-section-1-img div img {
+	width:38vw;
+	height: auto;
+	z-index: 100;
+	position: absolute;
+	top:1vh;
+	right:20vw;
+}
+
+/*Book - Section 2 (Links)*/
+.book-section-2 {
+	background-color: var(--primary-color);
+}
+.book-section-2-title div h2 {
+	font-family: "Poppins", sans-serif !important;
+	font-size: 2.5rem;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: .12rem;
+	margin-top: 25vh;
+}
+.book-section-2-text div p {
+	font-family: "Poppins", sans-serif !important;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.8rem;
+	margin-top: 2vh;
+	margin-bottom: 20vh;
+}
+
 /*Book - Section 3 (Links)*/
 .book-section-3 {
 	background-color: var(--white);
