@@ -342,21 +342,9 @@ b, strong {
     fill: var(--primary-color);
 }
 
-/*Book - Section 1 (Links)*/
-.book-section-1 {
-	height:33%;
-}
-
-/*Book - Section 2 (Links)*/
-.book-section-2 {
-	background-color: var(--primary-color);
-	height:57%;
-}
-
 /*Book - Section 3 (Links)*/
 .book-section-3 {
 	background-color: var(--white);
-	height: 10%;
 	padding:0 !important;
 	font-family: "Poppins", sans-serif !important;
 }
@@ -369,19 +357,33 @@ b, strong {
 	padding:0 !important;
 	margin:0 !important;
 }
-.book-section-3-column-2 {
-	padding:0 !important;
-	margin:0 !important;
-}
 .book-section-3-img {
 	width: 100% !important;
 	height: auto !important;
 }
-.book-section-3-title div h2 {
-	color: var(--primary-color) !important;
+.book-section-3-img div img {
+	width: 100% !important;
+	height: auto !important;
 }
-.book-section-3-text {
+.book-section-3-column-2 {
+	background-color: var(--light-blue);
+	padding:0 !important;
+	margin:0;
+	padding-left: 4vw !important;
+}
+.book-section-3-title div h2 {
+	font-family: "Poppins", sans-serif !important;
+	font-size: 2.5rem;
+	font-weight: 1000;
 	color: var(--primary-color) !important;
+	margin-top:20vh;
+}
+.book-section-3-text div p {
+	color: var(--primary-color) !important;
+	font-size:1.5rem;
+	line-height: 1.8rem;
+	padding-top:4vh;
+	padding-right:5vw;
 }
 
 /* Footer Styles */
