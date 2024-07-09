@@ -600,6 +600,9 @@ span.brent-name {
   .footer-navigation {
     justify-content: center;
   }
+  .footer-menu {
+    justify-content: flex-start;
+  }
 }
 @media (max-width: 400px) {
   .footer-column-1,
