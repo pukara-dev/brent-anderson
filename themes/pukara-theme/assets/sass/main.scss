@@ -214,7 +214,6 @@ b, strong {
 .elementor div.slide-2 {
 	background-color: var(--primary-color);
 	padding: 0;
-	height: 97vh;
 	box-sizing: border-box;
  }
  .elementor .slide-2 .e-con-inner {
@@ -227,6 +226,14 @@ b, strong {
 	padding: 0;
 	width: 47% !important;
 	align-items: flex-end;
+ }
+ .slide-2-image div {
+	overflow: visible;
+ }
+ .slide-2-img div img {
+	position: relative;
+	top: -80px;
+	transform: scale(.8);
  }
  .slide-2 .e-con-inner .slide-2-column-2 {
 	padding: 0;
@@ -258,11 +265,6 @@ b, strong {
 	width:72%;
 	line-height: 1.9rem;
 	padding-top: 1.5vh;
- }
- .slide-2-image div img {
-	height:125vh;
-	width:auto;
-	max-width: 100%;
  }
 
  /*Homepage - Section 3 (Links)*/
