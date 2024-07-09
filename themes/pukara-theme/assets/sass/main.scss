@@ -424,7 +424,6 @@ b, strong {
 /* Footer Styles */
 .site-footer {
    background-color: var(--primary-color);
-   height: 55vh;
    padding: 20px 0;
    color: #ffffff;
 }
@@ -462,12 +461,10 @@ b, strong {
    margin-top: 10px;
 }
 .footer-subscribe input[type="email"] {
-   padding: 10px;
+   padding: 20px;
    border: none;
    border-radius: 5px 0 0 5px;
    outline: none;
-   width: 26vw;
-   height: 4rem;
    font-family: "Poppins", sans-serif !important;
    font-size: 1rem;
    font-weight: 500;
@@ -484,7 +481,6 @@ b, strong {
    font-weight: 600;
    color: var(--primary-color);
    cursor: pointer;
-   width: 9vw;
 } 
 .footer-column-2 {
     display: flex;
@@ -503,6 +499,7 @@ b, strong {
    padding: 0;
    margin: 0;
    display: flex;
+   flex-wrap: wrap;
    gap: 35px;
 }
 .footer-menu li {
@@ -526,7 +523,49 @@ b, strong {
     text-decoration: none;
     margin-top: 50px;
     margin-left: 0;
-    margin-bottom: 40px; /* Add margin to separate from navigation */
+    margin-bottom: 40px;
     border-radius: 5px;
-    align-self: flex-end; /* Ensure button aligns to the right */
+    align-self: flex-end;
+}
+
+@media (max-width: 1180px) {
+	.footer-container {
+		flex-wrap: wrap;
+	}
+	.footer-column-1 {
+		width: 40%;
+	}
+	.footer-logo img {
+		width: 100%;
+	 }
+	 .footer-subscribe p {
+		font-size: 2rem;
+	 }
+	 .footer-subscribe input[type="email"] {
+		width:70%;
+		font-size: 1.5rem;
+	 }
+}
+@media (max-width: 800px) {
+	.footer-column-1, .footer-column-2 {
+		flex: 1 1 100%;
+	}
+	.footer-column-1 {
+		width: 100%;
+	}
+}
+@media (max-width: 400px) {
+	.footer-column-1, .footer-column-2 {
+		flex: 1 1 100%;
+	}
+	.footer-column-1 {
+		width: 50%;
+	}
+	.footer-logo img {
+		width: 70%;
+	 }
+	.footer-navigation {
+		margin-top:10px;
+		justify-content:flex-start;
+	}
 }
