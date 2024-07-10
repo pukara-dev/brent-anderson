@@ -552,11 +552,33 @@ span.brent-name {
 
 /*Brent Section 1*/
 /*Brent Sections 2 and 3*/
+.brent-section-2,
+.brent-section-3 {
+  background-color: var(--light-blue);
+}
 .brent-section-2 {
   font-family: "Poppins", sans-serif !important;
   color: var(--primary-color) !important;
 }
-.brent-section-2-title div h2 {
+.brent-section-3 .e-con-inner {
+  padding: 0 !important;
+  margin-right: 60px;
+}
+.brent-section-3-column-1,
+.brent-section-3-column-2 {
+  padding: 0 !important;
+  gap: 0 !important;
+}
+.brent-section-3-column-1 {
+  margin-bottom: 60px !important;
+  width: 60% !important;
+}
+.brent-section-3-column-2 {
+  width: 40% !important;
+  justify-content: flex-end !important;
+}
+.brent-section-2-title div h2,
+.brent-section-3-title div h2 {
   font-family: "Poppins", sans-serif !important;
   color: var(--primary-color) !important;
   font-size: 2.5rem;
@@ -564,15 +586,44 @@ span.brent-name {
   letter-spacing: 0.1rem;
   margin-top: 50px;
 }
-.brent-section-2-text div p {
+.brent-section-3-title div h2 {
+  margin-top: 70px;
+}
+.brent-section-2-text div p,
+.brent-section-3-p div p,
+.brent-section-3-span div p,
+.brent-section-3-list div ul li {
   font-family: "Poppins", sans-serif !important;
   color: var(--primary-color) !important;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
+  margin: 0;
+}
+.brent-section-2-text div p {
   margin-top: 10px;
 }
-
+.brent-section-3-p div p {
+  margin-top: 35px;
+}
+.brent-section-3-span div p {
+  margin-top: 25px;
+  font-weight: 800 !important;
+  padding-right: 50px;
+}
+.brent-section-3-list div ul li {
+  list-style-type: disc !important;
+  margin-left: 30px;
+}
+.brent-section-3-list div ul li::marker {
+  font-size: 1rem !important;
+}
+div.brent-section-3-img {
+  margin-left: 30px;
+}
+.brent-section-3-img div img {
+  width: 100%;
+}
 /* Footer Styles */
 .site-footer {
   background-color: var(--primary-color);
