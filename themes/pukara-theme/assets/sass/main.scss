@@ -551,6 +551,72 @@ span.brent-name {
 }
 
 /*Brent Section 1*/
+.brent-section-1 .e-con-inner {
+  padding: 0 !important;
+}
+.brent-section-1-column-1,
+.brent-section-1-column-2 {
+  padding: 0 !important;
+}
+.brent-section-1-column-1 {
+  width: 40% !important;
+  align-self: flex-end !important;
+}
+.brent-section-1-column-2 {
+  width: 70% !important;
+  margin-left: 70px !important;
+}
+.brent-section-1-img div img {
+  width: 120%;
+}
+.brent-section-1-title div h2 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.brent-section-1-text div p,
+.brent-section-1-p div span {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+.brent-section-1-text div p {
+  margin-top: 5px;
+}
+.brent-section-1-p div span {
+  margin-top: 30px;
+}
+.button-grid {
+  padding: 0 !important;
+  gap: 0 !important;
+  margin-bottom: 70px !important;
+  width: 80% !important;
+}
+.brent-section-1-button div div a span {
+  gap: 0 !important;
+}
+.brent-section-1-button div div a span .elementor-button-icon svg {
+  width: 2.5rem;
+}
+.brent-section-1-button div div a span .elementor-button-text {
+  align-self: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.brent-section-1-button.button-instagram div div a,
+.brent-section-1-button.button-linkedin div div a {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 400px) {
+}
+
 /*Brent Sections 2 and 3*/
 .brent-section-2,
 .brent-section-3 {
