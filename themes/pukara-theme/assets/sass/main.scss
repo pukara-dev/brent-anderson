@@ -551,6 +551,9 @@ span.brent-name {
 }
 
 /*Brent Section 1*/
+.brent-section-1 {
+  padding: 0 !important;
+}
 .brent-section-1 .e-con-inner {
   padding: 0 !important;
 }
@@ -613,8 +616,44 @@ span.brent-name {
 @media (max-width: 1200px) {
 }
 @media (max-width: 800px) {
+  .brent-section-1-column-1 {
+    width: 100% !important;
+    order: 2 !important;
+  }
+  .brent-section-1-img div img {
+    width: 50%;
+  }
+  .brent-section-1-column-2 {
+    width: 100% !important;
+    order: 1 !important;
+    margin: 0 !important;
+  }
+  .brent-section-1-title div h2,
+  .brent-section-1-text div p,
+  .brent-section-1-p div span {
+    margin: 0 40px !important;
+  }
+  .button-grid {
+    width: 100% !important;
+    order: 3;
+    background-color: var(--light-blue);
+    flex-direction: column !important;
+  }
 }
 @media (max-width: 400px) {
+  .brent-section-1-title div h2,
+  .brent-section-1-text div p,
+  .brent-section-1-p div span {
+    margin: 0 20px !important;
+  }
+  .brent-section-1-title div h2 {
+    font-size: 1.5rem;
+  }
+  .brent-section-1-text div p,
+  .brent-section-1-p div span {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
 }
 
 /*Brent Sections 2 and 3*/
