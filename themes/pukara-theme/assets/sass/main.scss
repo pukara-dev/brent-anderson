@@ -628,6 +628,9 @@ span.brent-name {
     order: 1 !important;
     margin: 0 !important;
   }
+  .brent-section-1-title div h2 {
+    font-size: 2.5rem;
+  }
   .brent-section-1-title div h2,
   .brent-section-1-text div p,
   .brent-section-1-p div span {
@@ -729,6 +732,51 @@ div.brent-section-3-img {
 .brent-section-3-img div img {
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 800px) {
+  .brent-section-2,
+  .brent-section-3 {
+    padding: 0 20px !important;
+  }
+  .brent-section-3-column-1,
+  .brent-section-3-column-2 {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .brent-section-2-title div h2,
+  .brent-section-3-title div h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  .brent-section-2-text div p,
+  .brent-section-3-p div p,
+  .brent-section-3-span div p,
+  .brent-section-3-list div ul li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .brent-section-3-p div p {
+    margin-top: 20px;
+  }
+  .brent-section-3-span div p {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .brent-section-2-title div h2,
+  .brent-section-3-title div h2 {
+    font-size: 1.5rem;
+  }
+  .brent-section-2-text div p,
+  .brent-section-3-p div p,
+  .brent-section-3-span div p,
+  .brent-section-3-list div ul li {
+    font-size: 1rem;
+  }
+}
+
 /* Footer Styles */
 .site-footer {
   background-color: var(--primary-color);
