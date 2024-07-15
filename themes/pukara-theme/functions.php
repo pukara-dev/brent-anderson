@@ -42,6 +42,6 @@ add_action('after_setup_theme', 'your_theme_setup');
 function your_theme_scripts()
 {
     // Enfileirar o JavaScript para o menu toggle
-    wp_enqueue_script('menu-toggle', get_template_directory_uri() . '/js/menu-toggle.js', array('jquery'), null, true);
+    wp_enqueue_script('menu-toggle', get_template_directory_uri() . '/assets/js/menu-toggle.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'your_theme_scripts');
