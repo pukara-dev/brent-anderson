@@ -4,6 +4,7 @@
   --primary-color: #1f2944;
   --orange-color: #f6a800;
   --light-blue: #d4e2f6;
+  --light-gray: #536884;
 }
 html {
   box-sizing: border-box;
@@ -25,12 +26,6 @@ body.page {
   line-height: 1.5;
   font-size: 14px;
 }
-body:not(.blog) #genesis-content p a,
-body:not(.blog) #genesis-content ul li a {
-  color: var(--orange-color);
-  text-decoration: underline;
-}
-
 a {
   text-decoration: none;
   transition: 0.1s linear;
@@ -628,6 +623,9 @@ span.brent-name {
     order: 1 !important;
     margin: 0 !important;
   }
+  .brent-section-1-title div h2 {
+    font-size: 2.5rem;
+  }
   .brent-section-1-title div h2,
   .brent-section-1-text div p,
   .brent-section-1-p div span {
@@ -729,6 +727,51 @@ div.brent-section-3-img {
 .brent-section-3-img div img {
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 800px) {
+  .brent-section-2,
+  .brent-section-3 {
+    padding: 0 20px !important;
+  }
+  .brent-section-3-column-1,
+  .brent-section-3-column-2 {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .brent-section-2-title div h2,
+  .brent-section-3-title div h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  .brent-section-2-text div p,
+  .brent-section-3-p div p,
+  .brent-section-3-span div p,
+  .brent-section-3-list div ul li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .brent-section-3-p div p {
+    margin-top: 20px;
+  }
+  .brent-section-3-span div p {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .brent-section-2-title div h2,
+  .brent-section-3-title div h2 {
+    font-size: 1.5rem;
+  }
+  .brent-section-2-text div p,
+  .brent-section-3-p div p,
+  .brent-section-3-span div p,
+  .brent-section-3-list div ul li {
+    font-size: 1rem;
+  }
+}
+
 /* Footer Styles */
 .site-footer {
   background-color: var(--primary-color);
@@ -899,5 +942,116 @@ div.brent-section-3-img {
   }
   .footer-contact-button {
     align-self: flex-start;
+  }
+}
+
+/*Contact Modal*/
+.contact-us-modal {
+  font-family: "Poppins", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px !important;
+}
+.contact-us-modal h2 {
+  font-family: "Poppins", sans-serif !important;
+  display: flex !important;
+  text-align: left !important;
+  font-size: 1rem;
+  color: var(--primary-color) !important;
+  margin-bottom: 20px !important;
+}
+.ays_content_box {
+  width: 100% !important;
+  padding: 0 !important;
+}
+.wpforms-container {
+  margin: 0 !important;
+  display: flex !important;
+}
+
+.wpforms-field {
+  padding: 0 !important;
+  min-width: 200px;
+}
+.wpforms-field-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.wpforms-field-number,
+.wpforms-field-email,
+.wpforms-field-name {
+  flex: 1 1 48%;
+  min-width: 200px;
+}
+.wpforms-field-checkbox {
+  flex: 1 1 100%;
+  margin-top: 10px;
+  width: 100%;
+}
+.wpforms-field-label {
+  font-family: "Poppins", sans-serif !important;
+  color: var(--primary-color) !important;
+  text-align: left;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+  margin-bottom: 5px !important;
+}
+.wpforms-field-large {
+  font-family: "Poppins", sans-serif !important;
+  border: 1px solid var(--light-gray) !important;
+  border-radius: 0 !important;
+  padding: 10px !important;
+  font-size: 0.8rem !important;
+  height: 2.2rem !important;
+}
+.wpforms-field-checkbox fieldset ul {
+  gap: 0 !important;
+}
+.depth-1 input::before {
+  width: 10px !important;
+  height: 10px !important;
+}
+.wpforms-field-label-inline {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.8rem !important;
+  color: var(--light-gray) !important;
+  padding: 0 !important;
+}
+.wpforms-submit-container {
+  text-align: left;
+  margin-top: 20px !important;
+}
+.wpforms-submit-container button {
+  background-color: var(--orange-color) !important;
+  color: var(--primary-color) !important;
+  font-size: 0.8rem !important;
+  padding: 0 50px !important;
+  border-radius: 5px !important;
+}
+.contact-modal-info {
+  background-color: #dfeafa;
+  color: var(--light-gray) !important;
+  font-size: 0.8rem !important;
+  padding: 5px !important;
+  margin: 0 !important;
+}
+img.close_btn_img {
+  width: 3vw;
+}
+
+@media (max-width: 768px) {
+  img.close_btn_img {
+    width: 10vw;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  img.close_btn_img {
+    width: 10vw;
+    height: auto;
   }
 }
