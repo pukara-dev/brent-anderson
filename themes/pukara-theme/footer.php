@@ -3,12 +3,12 @@
         <div class="footer-column-1">
             <div class="footer-logo">
                 <?php
-				if (has_custom_logo()) {
-					the_custom_logo();
-				} else {
-					echo '<h1>' . get_bloginfo('name') . '</h1>';
-				}
-				?>
+                if (has_custom_logo()) {
+                    the_custom_logo();
+                } else {
+                    echo '<h1>' . get_bloginfo('name') . '</h1>';
+                }
+                ?>
             </div>
             <div class="footer-subscribe">
                 <p>Download Chapter 1 of my new book: <br><span class="yellow-span">Principles of Movement</span></p>
@@ -19,16 +19,16 @@
             </div>
         </div>
         <div class="footer-column-2">
-            <a href="YOUR_CONTACT_URL" class="footer-contact-button">Contact Us</a>
+            <a href="#" class="footer-contact-button contact-button">Contact Us</a>
             <div class="footer-navigation">
                 <?php
-				wp_nav_menu(
-					array(
-						'theme_location' => 'footer',
-						'menu_class' => 'footer-menu',
-					)
-				);
-				?>
+                wp_nav_menu(
+                    array(
+                        'theme_location' => 'footer',
+                        'menu_class' => 'footer-menu',
+                    )
+                );
+                ?>
             </div>
         </div>
     </div>
