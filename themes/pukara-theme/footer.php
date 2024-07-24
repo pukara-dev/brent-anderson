@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="footer-column-2">
-            <a href="YOUR_CONTACT_URL" class="contact-button">Contact Us</a>
+            <a href="#" class="footer-contact-button contact-button">Contact Us</a>
             <div class="footer-navigation">
                 <?php
                 wp_nav_menu(
