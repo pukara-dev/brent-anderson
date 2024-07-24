@@ -388,9 +388,9 @@ strong {
   max-width: 100% !important;
   width: 47% !important;
   align-items: flex-end;
-  background: url(/wp-content/uploads/2024/07/pearl-gradient-1-3.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(/wp-content/uploads/2024/07/Brent-crop.png) no-repeat;
+  background-position: top center;
+  background-size: contain;
 }
 .slide-2-column-1::before {
   content: "";
@@ -479,13 +479,12 @@ span.brent-name {
   .slide-2-column-1::before {
     transform: scale(1.1);
   }
+}
+@media (max-width: 1024px) {
   .slide-2-column-2.e-flex.e-con.e-child {
-    width: 100%;
+    width: 100% !important;
     display: flex;
     align-items: center;
-  }
-  .slide-2-column-1.e-flex.e-con.e-child {
-    width: 100% !important;
   }
 }
 @media (max-width: 800px) {
@@ -1119,7 +1118,7 @@ div.brent-section-3-img {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 .footer-menu li {
   display: inline;
