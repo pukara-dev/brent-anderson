@@ -100,7 +100,7 @@ strong {
   font-family: "Poppins", sans-serif !important;
   color: white;
   font-weight: 500;
-  font-size: 1.33rem;
+  font-size: 1.23rem;
   padding: 15px 20px 15px 0;
 }
 .menu-item a:hover {
@@ -479,13 +479,11 @@ span.brent-name {
   .slide-2-column-1::before {
     transform: scale(1.1);
   }
+}
+@media (max-width: 1024px) {
   .slide-2-column-2.e-flex.e-con.e-child {
-    width: 100%;
     display: flex;
     align-items: center;
-  }
-  .slide-2-column-1.e-flex.e-con.e-child {
-    width: 100% !important;
   }
 }
 @media (max-width: 800px) {
@@ -512,6 +510,9 @@ span.brent-name {
   }
 }
 @media (max-width: 400px) {
+  .slide-2-column-2.e-flex.e-con.e-child {
+    width: 100% !important;
+  }
   .slide-2-column-1::before {
     background-size: contain;
     background-position: top;
@@ -1119,7 +1120,7 @@ div.brent-section-3-img {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 .footer-menu li {
   display: inline;
