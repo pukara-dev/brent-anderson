@@ -100,7 +100,7 @@ strong {
   font-family: "Poppins", sans-serif !important;
   color: white;
   font-weight: 500;
-  font-size: 1.33rem;
+  font-size: 1.23rem;
   padding: 15px 20px 15px 0;
 }
 .menu-item a:hover {
@@ -482,7 +482,6 @@ span.brent-name {
 }
 @media (max-width: 1024px) {
   .slide-2-column-2.e-flex.e-con.e-child {
-    width: 100% !important;
     display: flex;
     align-items: center;
   }
@@ -511,6 +510,9 @@ span.brent-name {
   }
 }
 @media (max-width: 400px) {
+  .slide-2-column-2.e-flex.e-con.e-child {
+    width: 100% !important;
+  }
   .slide-2-column-1::before {
     background-size: contain;
     background-position: top;
