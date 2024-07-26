@@ -189,6 +189,7 @@ strong {
     opacity: 0.1;
     z-index: 1;
     background-position: left;
+    pointer-events: none;
   }
   .primary-menu.expanded {
     display: flex !important;
