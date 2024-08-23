@@ -788,7 +788,104 @@ span.brent-name {
   }
 }
 
-/*Brent Section 1*/
+/*About Brent Section 1*/
+.about-section-1,
+.about-section-2,
+.about-section-3-column-1,
+.about-section-3-column-2,
+.about-section-1 div {
+  padding: 0 !important;
+}
+.about-section-1 {
+  height: 420px;
+}
+.about-section-1-img div img {
+  width: 60%;
+}
+.about-section-1-title div h2 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 3rem;
+  font-weight: 1000;
+  margin-top: 90px;
+}
+.about-section-1-text div p {
+  font-size: 1.8rem;
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 1200px) {
+}
+
+/*About Brent Section 2*/
+.about-section-2-column-1 {
+  background-color: white !important;
+}
+.about-section-2-title div h2 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 1000;
+  color: var(--primary-color) !important;
+  margin-top: 0;
+  text-align: left !important;
+}
+.about-section-2-column-1 {
+  align-self: center;
+  padding: 0 80px;
+}
+
+/*About Brent Section 3*/
+.about-section-3 {
+  padding: 100px 80px;
+  background-color: var(--light-blue);
+}
+.about-section-3-text div p {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.2rem;
+  font-weight: 500 !important;
+  line-height: 1.5rem;
+  color: var(--primary-color) !important;
+}
+.about-section-3-column-1 {
+  padding-right: 20px !important;
+}
+.about-section-3-column-2 {
+  padding-left: 20px !important;
+}
+
+/*About Brent Section 4*/
+.about-section-4 {
+  padding: 100px 0;
+}
+.about-section-4-heading div p,
+.about-section-4-text div p {
+  margin: 0;
+}
+.about-section-4-heading {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 600 !important;
+  color: var(--white) !important;
+  text-align: center;
+}
+.about-section-4-text {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: var(--white) !important;
+  text-align: center;
+  padding: 0 230px !important;
+}
+.about-section-4-name {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.2rem;
+  color: var(--white) !important;
+  text-align: center;
+}
+
+/*Brent Old page*/
 .brent-section-1 {
   padding: 0 !important;
 }
@@ -905,8 +1002,6 @@ span.brent-name {
     line-height: 1.2rem;
   }
 }
-
-/*Brent Sections 2 and 3*/
 .brent-section-2,
 .brent-section-3 {
   background-color: var(--light-blue);
